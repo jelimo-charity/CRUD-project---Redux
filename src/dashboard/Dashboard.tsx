@@ -1,12 +1,14 @@
 // import React from 'react'
 
-import Container from "../components/Container"
+import Form from "../components/Form"
+import Books from "../features/books/Books"
 
 const Dashboard = () => {
   return (
-    <Container>
-     
-    </Container>
+    <>
+      <Form />
+      <Books />
+    </>
   )
 }
 

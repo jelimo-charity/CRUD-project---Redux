@@ -2,10 +2,10 @@
 import {  createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 //create books api
-interface TBook {
+export interface TBook {
     id: number,
     title: string,
-    Author: string,
+    author: string,
     year: number
 }
 export const booksAPI = createApi({
